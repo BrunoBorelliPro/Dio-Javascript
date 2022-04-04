@@ -1,6 +1,9 @@
 const array = [30, 30, 40, 5, 223, 2049, 3034, 5]
 
-const mySet = new Set(array)
 
+function valoresUnicos(array){
+    const mySet = new Set(array)
+    return [...mySet]
+}
 console.log(array)
-console.log(mySet)
+console.log(valoresUnicos(array))
